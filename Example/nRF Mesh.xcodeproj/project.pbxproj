@@ -170,6 +170,8 @@
 		A7B526A7277B210000F5C60D /* GenericPowerOnOffSetupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B526A5277B210000F5C60D /* GenericPowerOnOffSetupViewCell.swift */; };
 		A7B526A8277B210000F5C60D /* GenericPowerOnOffSetup.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B526A6277B210000F5C60D /* GenericPowerOnOffSetup.xib */; };
 		C5D0E3889048D952B61974DA /* Pods_nRF_Mesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E003FABAE6DD367FEC93B5 /* Pods_nRF_Mesh.framework */; };
+		F03288942E4CCBC0008FD9DB /* ElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03288922E4CCBC0008FD9DB /* ElementCell.swift */; };
+		F03288952E4CCBC0008FD9DB /* ElementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03288932E4CCBC0008FD9DB /* ElementCell.xib */; };
 		F03414832B912F95009DD792 /* LightLCModeGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03414822B912F95009DD792 /* LightLCModeGroupCell.swift */; };
 		F03414852B9131BA009DD792 /* LightLCOccupancyModeGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03414842B9131BA009DD792 /* LightLCOccupancyModeGroupCell.swift */; };
 		F03414872B91373E009DD792 /* LightLCLightOnOffGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03414862B91373E009DD792 /* LightLCLightOnOffGroupCell.swift */; };
@@ -196,6 +198,7 @@
 		F058A6412DC9036400E9E914 /* UpdatePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F058A6402DC9035B00E9E914 /* UpdatePackage.swift */; };
 		F063C01A29C2774300A445A9 /* SelectKeysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F063C01929C2774300A445A9 /* SelectKeysViewController.swift */; };
 		F063C01D29C27EAB00A445A9 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F063C01C29C27EAB00A445A9 /* IntroViewController.swift */; };
+		F0849F0A2E9054820080DD30 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0849F092E9054750080DD30 /* DetailCell.swift */; };
 		F085C9FB29C496AB00C2DF89 /* SelectModelsForBindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085C9FA29C496AB00C2DF89 /* SelectModelsForBindingViewController.swift */; };
 		F085C9FD29CB26B000C2DF89 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085C9FC29CB26B000C2DF89 /* Models.swift */; };
 		F085CA0229D1E0B900C2DF89 /* Subscribe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F085CA0029D1E0B900C2DF89 /* Subscribe.storyboard */; };
@@ -419,6 +422,8 @@
 		A7B526A6277B210000F5C60D /* GenericPowerOnOffSetup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenericPowerOnOffSetup.xib; sourceTree = "<group>"; };
 		C775BBAAAC42952ED786BABF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E7CB7DCE18F6E38D2240310F /* nRFMeshProvision.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = nRFMeshProvision.podspec; path = ../nRFMeshProvision.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F03288922E4CCBC0008FD9DB /* ElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementCell.swift; sourceTree = "<group>"; };
+		F03288932E4CCBC0008FD9DB /* ElementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElementCell.xib; sourceTree = "<group>"; };
 		F03414822B912F95009DD792 /* LightLCModeGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLCModeGroupCell.swift; sourceTree = "<group>"; };
 		F03414842B9131BA009DD792 /* LightLCOccupancyModeGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLCOccupancyModeGroupCell.swift; sourceTree = "<group>"; };
 		F03414862B91373E009DD792 /* LightLCLightOnOffGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightLCLightOnOffGroupCell.swift; sourceTree = "<group>"; };
@@ -445,6 +450,7 @@
 		F058A6402DC9035B00E9E914 /* UpdatePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePackage.swift; sourceTree = "<group>"; };
 		F063C01929C2774300A445A9 /* SelectKeysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectKeysViewController.swift; sourceTree = "<group>"; };
 		F063C01C29C27EAB00A445A9 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		F0849F092E9054750080DD30 /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
 		F085C9FA29C496AB00C2DF89 /* SelectModelsForBindingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectModelsForBindingViewController.swift; sourceTree = "<group>"; };
 		F085C9FC29CB26B000C2DF89 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F085CA0129D1E0B900C2DF89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Subscribe.storyboard; sourceTree = "<group>"; };
@@ -565,6 +571,7 @@
 		5231403922FDA80E0074325A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				F03288912E4CCB6E008FD9DB /* Cells */,
 				5231403A22FDA8280074325A /* Model */,
 				F044AE692DAE8CF4006D6674 /* AddNetKey.storyboard */,
 				F044AE662DAE8CD4006D6674 /* AddAppKey.storyboard */,
@@ -1002,6 +1009,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F03288912E4CCB6E008FD9DB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F0849F092E9054750080DD30 /* DetailCell.swift */,
+				F03288922E4CCBC0008FD9DB /* ElementCell.swift */,
+				F03288932E4CCBC0008FD9DB /* ElementCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		F0587F742D96EC8E0091CDF4 /* LE Pairing */ = {
 			isa = PBXGroup;
 			children = (
@@ -1220,6 +1237,7 @@
 				52CD0A5E2330C04700A9A181 /* Network.storyboard in Resources */,
 				F044AE5E2DA949AC006D6674 /* DFU.storyboard in Resources */,
 				A7A59BD5277225A70045A8ED /* GenericPowerOnOff.xib in Resources */,
+				F03288952E4CCBC0008FD9DB /* ElementCell.xib in Resources */,
 				F0F0D9D52DCE3C68009FDE6B /* Configuration.storyboard in Resources */,
 				52E54CDB2343878B00478F05 /* Control.storyboard in Resources */,
 				F0587F6F2D96C5AA0091CDF4 /* PairingResponder.xib in Resources */,
@@ -1440,6 +1458,7 @@
 				523F776C22C6324A0030EA6A /* ProgressViewController.swift in Sources */,
 				52547F25232A3F470002AA7B /* EditProvisionerViewController.swift in Sources */,
 				5245737D2500E12600CF8500 /* EditSceneViewController.swift in Sources */,
+				F0849F0A2E9054820080DD30 /* DetailCell.swift in Sources */,
 				5288C2102371B0F700321ED3 /* SimpleOnOffGet.swift in Sources */,
 				529B756D223FE7F1008F1CE7 /* RootViewController.swift in Sources */,
 				52CD0A53232FA79300A9A181 /* FilterTypeCell.swift in Sources */,
@@ -1516,6 +1535,7 @@
 				521599D525E91F9300F602FA /* SensorValueCell.swift in Sources */,
 				F03414832B912F95009DD792 /* LightLCModeGroupCell.swift in Sources */,
 				52518B3122E0B18400A1FD1E /* GroupsViewController.swift in Sources */,
+				F03288942E4CCBC0008FD9DB /* ElementCell.swift in Sources */,
 				F0B67D822DB0F0D700B1A69D /* FirmwareSelectionViewController.swift in Sources */,
 				52A8EA9424EE6D18004C14C7 /* HeartbeatSubscriptionPeriodCell.swift in Sources */,
 				F058A6412DC9036400E9E914 /* UpdatePackage.swift in Sources */,
@@ -1854,7 +1874,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				MARKETING_VERSION = 4.4.0;
+				MARKETING_VERSION = 4.5.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nordicsemi.nRFProvisioner;
@@ -1888,7 +1908,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				MARKETING_VERSION = 4.4.0;
+				MARKETING_VERSION = 4.5.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nordicsemi.nRFProvisioner;

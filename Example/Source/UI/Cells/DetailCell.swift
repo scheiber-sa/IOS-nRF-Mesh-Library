@@ -1,6 +1,5 @@
-//
 /*
-* Copyright (c) 2019, Nordic Semiconductor
+* Copyright (c) 2025, Nordic Semiconductor
 * All rights reserved.
 *
 * Redistribution and use in source and binary forms, with or without modification,
@@ -29,39 +28,16 @@
 * POSSIBILITY OF SUCH DAMAGE.
 */
 
-import Foundation
 import UIKit
 
-extension UITableViewCell {
+class DetailCell: UITableViewCell {
     
-    var isEnabled: Bool {
-        get {
-            return isUserInteractionEnabled
-        }
-        set(enabled) {
-            isUserInteractionEnabled = enabled
-            if enabled {
-                if #available(iOS 13.0, *) {
-                    textLabel?.textColor = .label
-                    detailTextLabel?.textColor = .secondaryLabel
-                    imageView?.tintColor = .nordicLake
-                } else {
-                    textLabel?.textColor = .darkText
-                    detailTextLabel?.textColor = .lightGray
-                    imageView?.tintColor = .nordicLake
-                }
-            } else {
-                if #available(iOS 13.0, *) {
-                    textLabel?.textColor = .secondaryLabel
-                    detailTextLabel?.textColor = .secondaryLabel
-                    imageView?.tintColor = .secondaryLabel
-                } else {
-                    textLabel?.textColor = .lightGray
-                    detailTextLabel?.textColor = .lightGray
-                    imageView?.tintColor = .lightGray
-                }
-            }
-        }
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: .value1, reuseIdentifier: reuseIdentifier)
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
     }
     
 }

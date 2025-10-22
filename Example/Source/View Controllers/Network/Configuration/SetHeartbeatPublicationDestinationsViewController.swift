@@ -92,7 +92,9 @@ class SetHeartbeatPublicationDestinationsViewController: UITableViewController {
         case IndexPath.keysSection:
             return "Network Keys"
         case IndexPath.nodesSection:
-            return "Destination"
+            return "Unicast Destinations"
+        case IndexPath.groupsSection:
+            return "Groups"
         default:
             return nil
         }
@@ -130,7 +132,8 @@ class SetHeartbeatPublicationDestinationsViewController: UITableViewController {
                 selectedIndexPath = indexPath
                 selectedDestination = nil
             }
-            cell.textLabel?.text = node.name ?? "Unknown Device"
+            cell.textLabel?.text = node.name ?? "Unknown Node"
+            cell.detailTextLabel?.text = node.primaryUnicastAddress.asString()
             cell.imageView?.image = #imageLiteral(resourceName: "ic_flag_24pt")
             cell.accessoryType = indexPath == selectedIndexPath ? .checkmark : .none
             cell.isEnabled = true
@@ -142,6 +145,7 @@ class SetHeartbeatPublicationDestinationsViewController: UITableViewController {
                 selectedDestination = nil
             }
             cell.textLabel?.text = group.name
+            cell.detailTextLabel?.text = group.address.address.asString()
             cell.imageView?.image = #imageLiteral(resourceName: "ic_group_24pt")
             cell.accessoryType = indexPath == selectedIndexPath ? .checkmark : .none
             cell.isEnabled = !group.address.address.isVirtual
@@ -153,6 +157,7 @@ class SetHeartbeatPublicationDestinationsViewController: UITableViewController {
                 selectedDestination = nil
             }
             cell.textLabel?.text = group.name
+            cell.detailTextLabel?.text = group.address.address.asString()
             cell.imageView?.image = #imageLiteral(resourceName: "ic_group_24pt")
             cell.accessoryType = indexPath == selectedIndexPath ? .checkmark : .none
             cell.isEnabled = true
