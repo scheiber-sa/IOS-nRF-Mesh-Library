@@ -26,12 +26,14 @@
 * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 * POSSIBILITY OF SUCH DAMAGE.
-*
-* Created by Jules DOMMARTIN on 04/11/2024.
 */
 import NordicMesh
 
-class HealthClientHandler: ModelDelegate {
+// Created by Jules DOMMARTIN on 04/11/2024.
+
+import Foundation
+
+internal class HealthClientHandler: ModelDelegate {
     var messageTypes: [UInt32 : MeshMessage.Type]
     var isSubscriptionSupported: Bool = false
     var publicationMessageComposer: MessageComposer? = nil

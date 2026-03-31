@@ -36,7 +36,7 @@ import NordicMesh
 /// To test ``HealthFaultGet`` send a ``HealthFaultTest``
 /// with an expected id of a fault set as ``HealthFaultTest/testId``.
 /// The fault will be added to the Registered Fault state.
-class HealthServerHandler: ModelDelegate {
+internal class HealthServerHandler: ModelDelegate {
     private weak var meshNetwork: MeshNetwork!
     private weak var manager: MeshNetworkManager!
     
